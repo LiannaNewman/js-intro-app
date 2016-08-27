@@ -1,11 +1,11 @@
 function changeColor(box) {
   console.log(box);
   // .style["CSS-ATTRIBUTE"] can change the styling of the element
-  box.style["background-color"] = "blue";
+  box.style["background-color"] = "purple";
 }
 
 function addText(box) {
-  box.innerHTML = "Hello!";
+  box.innerHTML = "Goodbye!";
 }
 
 function addClass(box) {
@@ -31,4 +31,3 @@ function readText() {
 // See more:
 // http://www.w3schools.com/js/js_htmldom_document.asp
 // http://www.w3schools.com/js/js_htmldom_elements.asp
-
